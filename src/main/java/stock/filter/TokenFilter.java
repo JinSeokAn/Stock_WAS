@@ -11,10 +11,10 @@ import stock.service.TokenUtil;
 
 import java.io.IOException;
 
-//@Component
+@Component
 public class TokenFilter extends OncePerRequestFilter {
 
-    //@Autowired
+    @Autowired
     private TokenUtil tokenUtil;
 
     @Override
